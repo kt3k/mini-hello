@@ -1,5 +1,7 @@
 # mini-hello
 
+[![Build Status](https://travis-ci.org/kt3k/mini-hello.svg?branch=master)](https://travis-ci.org/kt3k/mini-hello)
+
 > Very small hello-world container
 
 The result container size is 63 bytes.
