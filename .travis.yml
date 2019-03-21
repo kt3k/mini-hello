@@ -1,0 +1,5 @@
+language: minimal
+services: docker
+install: docker build . -t hello
+script: docker run hello
+after_success: docker inspect hello | jq .[0].Size
